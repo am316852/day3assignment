@@ -1,0 +1,252 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Amit Kumar
+Updated: may 2016
+Notes:	 Hand coded by amit kumar
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#features{
+  text-align: center;
+}
+#features img{
+  margin: 0 0 20px;
+}
+#inputMessage{
+  margin-bottom: 15px;
+}
+
+footer{
+  background: #333;
+  color: #eee;
+  font-size: 11px;
+  padding: 20px;
+margin-top: 30px;
+}
+/* --------------------------------------
+   Typography-
+   -------------------------------------- */
+body
+{
+  -webkit-font-smoothing: antialiased;
+  text-rendering:optimizelegibility;
+
+}
+
+.well .page-header{
+  margin-top: 0;
+}
+.well .page-header h1{
+
+  margin-top: 0;
+}
+ul.unstyled{
+  list-style: none;
+  padding: 0;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchinput{
+     width: 170px;
+   }
+   .navbar-brand{
+     padding: 10px 13px;
+   }
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+     #myCarousel{
+       margin-top: 70px;
+
+
+     }
+.carousel-caption{
+  font-size: 24px;
+  color: gray;
+  text-shadow: 1px 3px 1px black;
+}
+.carousel-caption h4{
+  font-size: 32px;
+  color: blue;
+  text-shadow: 1px 3px 1px red;
+}
+#myCarousel .item{
+  min-height: 400px;}
+
+  #slide1{
+    background: url('../../images/carousel_medium_01s.jpg') top center no-repeat;
+
+
+  }
+  #slide2{
+    background: url('../../images/carousel_medium_02s.jpg') top center no-repeat;
+
+  }
+  #slide3{
+    background: url('../../images/carousel_medium_03s.jpg') top center no-repeat;
+
+  }
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.alert{
+  margin-top:20px;
+  display: none;
+}
+.well{
+  margin: 20px 0;
+}
+
+.thumbnail .price{
+  font-size: 22px;
+  position: absolute;
+  top: -10px;
+
+  right: -10px;
+  padding: 10px;
+}
+.thumbnail .price sup{
+  font-weight: normal;
+  font-size: 20px;
+}
+.thumbnail span.glyphicon{
+  margin-right: 5px;
+}
+.panel{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none
+}
+
+
+.img1{
+  padding-left: 25px;
+}
+.img2{
+  padding-left: 45px;
+}
+.img3{
+  padding-left: 25px;
+}
+.img4{
+  padding-left: 45px;
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+#spacing{
+  padding-top: 20px;
+}
+
+
+
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+
+.thumbnail .price{
+
+  right: -1px;
+  font-size: 15px;
+  margin-right: 7px
+}
+.thumbnail .price sup{
+
+  font-size: 18px;
+  right: -1px;
+}
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+  #myCarousel .item{
+    height: 310px;
+font-size: 30px;
+  }
+
+    #slide1{
+      background: url('../../images/carousel_medium_01s.jpg') top center no-repeat;
+
+    }
+    #slide2{
+      background: url('../../images/carousel_medium_02s.jpg') top center no-repeat;
+
+    }
+    #slide3{
+      background: url('../../images/carousel_medium_03s.jpg') top center no-repeat;
+
+    }
+    .carousel-caption{
+      font-size: 16px;
+    }
+    .carousel-caption h4{
+      font-size: 22px;
+    }
+    .panel{
+      font-size:20px;
+    }
+    .panel a{
+      font-size: 20px;
+    }
+    .caption a{
+      font-size: 20px;
+    }
+    .thumbnail .price{
+
+      right: -1px;
+      font-size: 17px;
+      margin-right: 7px
+    }
+    .footer{
+      font-size:16px;
+    }
+    .footer h6{
+      font-size:19px;
+    }
+    #moreInfo{
+      font-size: 17px;
+    }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  #myCarousel .item{
+    height: 500px;
+
+  }
+
+    #slide1{
+      background: url('../../images/carousel_medium_01s.jpg') top center no-repeat;
+
+    }
+    #slide2{
+      background: url('../../images/carousel_medium_02s.jpg') top center no-repeat;
+
+    }
+    #slide3{
+      background: url('../../images/carousel_medium_03s.jpg') top center no-repeat;
+
+    }
+
+
+}
